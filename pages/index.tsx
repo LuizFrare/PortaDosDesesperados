@@ -3,6 +3,8 @@ import styles from "../styles/Form.module.css"
 import Link from "next/link"
 import EntradaNumerica from "../components/EntradaNumerica"
 import { useState } from "react"
+import Image from "next/image"
+import Logo from "../assets/logo.png"
 
 export default function Form() {
 
@@ -11,9 +13,10 @@ export default function Form() {
 
   return(
     <div className={styles.form}>
+      <Image src={Logo} className={styles.imagem} alt="Logo"/>
       <div>
         <Cartao bgcolor="#FF6700"> 
-          <h1 className={styles.titulo}>Porta dos Desesperados</h1>
+          <h1 className={styles.titulo}>Informe a quantidade de portas e a porta escolhida</h1>
         </Cartao>
         <Cartao>
           <EntradaNumerica text="Quantidade Portas?"
