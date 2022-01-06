@@ -1,0 +1,76 @@
+.area{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: var(--area-porta-largura);
+    height: var(--area-porta-altura);
+    margin: 5px;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+}
+
+.estrutura{
+    display: flex;
+    flex-direction: column-reverse;
+    flex: 1;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-right: 5px solid #b7410e; 
+    border-top: 5px solid #b7410e;
+    border-left: 5px solid #b7410e;
+    width: 90%;
+    background-color: rgba(90, 68, 44, 0.333);
+}
+
+.porta{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background: linear-gradient(325deg, rgba(255,79,0,1) 0%, rgba(242,133,0,1) 100%);
+    align-items: center;
+    padding: 15px;
+}
+
+.numero{
+    font-size: 3rem;
+    color: white;
+}
+
+.chao{
+    height: 10px;
+    width: 100%;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background: linear-gradient(325deg, rgba(99,81,71,1) 0%, rgba(53,40,30,1) 100%);
+}
+
+.macaneta{
+    position: absolute;
+    align-self: flex-start;
+    top: calc(0.45 * var(--area-porta-altura));
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background: linear-gradient(150deg, rgba(209,77,19,1) 0%, rgba(130,45,8,1) 100%);
+}
+
+.selecionada {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-right: 5px solid #FFCC99; 
+    border-top: 5px solid #FFCC99;
+    border-left: 5px solid #FFCC99;
+}
+
+.selecionada .numero{
+    color:#FFCC99;
+}
+
+.selecionada .macaneta{
+    background: linear-gradient(150deg, rgba(255,204,153,1) 0%, rgba(255,130,67,1) 100%);
+}

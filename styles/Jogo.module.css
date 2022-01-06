@@ -1,0 +1,41 @@
+#jogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.portas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-self: stretch;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+
+.button button{
+    background-color: #0892d0;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px 10px;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.button button:hover{
+    background-color: #2cabe6;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0.8;
+}

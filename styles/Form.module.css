@@ -1,0 +1,26 @@
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.form > div {
+    display: flex;
+}
+
+.link {
+    flex: 1;
+    margin: 0;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
