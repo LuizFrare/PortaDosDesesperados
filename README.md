@@ -6,6 +6,8 @@
 Site feito totalmente com Next.JS com o integração TypeScript. O web-app foi inspirado do problema de Monty-hall e batizado por "Porta dos Desesperados" por conta da apropriação cultural que 
 este nome tem, remetendo aos programas de auditório dos anos 80.
 
+<img src="assets/exemplo.png" alt="Logo" width="400px">
+
 ### Tecnologias e Integrações
 - JavaScript
 - TypeScript
